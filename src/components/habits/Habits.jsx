@@ -5,10 +5,10 @@ import DeleteHabit from './DeleteHabit'
 
 const Habits = ({deleteId, color, name, description, checked, onDelete}) => {
   
-  function handleDelete () {
+  function handleDelete (deleteId) {
     console.log(deleteId);
     onDelete(deleteId)
-  
+    
     
   }
     
